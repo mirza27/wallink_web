@@ -2,9 +2,9 @@
 
 export function Footer() {
     return(
-        <footer className="footer footer-center p-8 bg-[#FCFCFD] text-[#1E1F24]">
+        <footer className="footer footer-center p-8 bg-[url('/circle-texture.png')] bg-top bg-cover text-[#1E1F24]">
             <p className="flex justify-center">
-                PT. Tim Haha Hihi.
+                Wallink & Co
             </p>
             <p className="flex justify-center mt-2">
                 Copyright © 2024 - All right reserved

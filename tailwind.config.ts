@@ -20,6 +20,10 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'circle-texture': "/circle-texture.png",
+        'main-texture': "/main-texture.png",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
