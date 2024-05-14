@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 export function ReviewCard() {
     return (
-        <div className="h-[40rem] rounded-md flex flex-col antialiased bg-[url('/main-texture.png')] bg-contain bg-bottom items-center justify-center relative overflow-hidden">
+        <div className="h-[40rem] w-screen rounded-md flex flex-col antialiased bg-[url('/main-texture.png')] bg-contain bg-bottom items-center justify-center relative overflow-hidden">
             <div className="text-black text-center text-3xl md:text-4xl lg:text-5xl pb-16 ">
                 <p>
                     What They Say About Us

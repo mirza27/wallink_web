@@ -19,7 +19,7 @@ export function MainLandingText() {
         },
     ];
     return (
-        <div className="bg-[url('/main-texture.png')] bg-contain bg-bottom flex flex-col items-center justify-center h-[680px] w-[100vw]">
+        <div className="bg-[url('/main-texture.png')] bg-contain bg-bottom flex flex-col items-center justify-center h-[680px] w-screen">
             <p className="text-neutral-800 text-base md:text-lg xl:text-xl">
                 Save Time, Save Links,
             </p>
