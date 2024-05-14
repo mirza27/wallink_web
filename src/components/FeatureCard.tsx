@@ -18,19 +18,19 @@ export const projects = [
     {
         title: "Structured and easy-to-understand interface",
         description:
-            "A technology company that builds economic infrastructure for the internet.",
+            "A structured and easy-to-understand interface is a user-friendly design that organizes information and interactive elements in a clear, logical manner, enabling users to navigate and use the system efficiently without confusion. This type of interface typically features intuitive layouts, consistent visual cues, and straightforward language, minimizing the learning curve and reducing the likelihood of errors. By prioritizing simplicity and clarity, such interfaces enhance user satisfaction and productivity, ensuring that even those with minimal technical expertise can perform tasks effectively.",
         link: "#",
     },
     {
-        title: "Member",
+        title: "Listing of links by category and subcategory",
         description:
-            "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+            "Users can categorize links into broad categories, such as Work, Personal, or Research, and further refine these into subcategories for more specific organization, like Projects, Emails, or Data Analysis under Work. This hierarchical listing not only makes it easier to locate specific links quickly but also enhances the overall user experience by maintaining a clean and systematic order. It enables efficient browsing and retrieval of links based on their context and relevance, thereby improving productivity and accessibility.",
         link: "#",
     },
     {
-        title: "Member",
+        title: "Search and quick access to selected links",
         description:
-            "A multinational technology company that specializes in Internet-related services and products.",
+            "By incorporating a robust search functionality, users can swiftly find specific links using keywords or tags, enhancing productivity by reducing the time spent browsing through extensive lists. Additionally, the quick access feature provides a streamlined way to pin or mark selected links, making them easily accessible from a dedicated section or shortcut. This dual approach ensures that users can maintain an organized and efficient workflow, with their key resources always at their fingertips.",
         link: "#",
     },
 ];
