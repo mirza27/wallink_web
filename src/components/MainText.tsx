@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { TypewriterEffect, TypewriterEffectSmooth } from "./ui/typewriter-effect";
 
 export function MainLandingText() {
@@ -25,12 +26,16 @@ export function MainLandingText() {
             </p>
             <TypewriterEffectSmooth words={words} />
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-                <button className="w-40 h-12 rounded-xl bg-[#FCFCFD] text-[#1E1F24] border border-[#1E1F24] text-sm hover:text-[#0569DC] hover:border-[#0569DC]">
-                    Learn More
-                </button>
-                <button className="w-40 h-12 rounded-xl bg-[#0569DC] border border-transparent text-[#FCFCFD] text-sm">
-                    Download Now
-                </button>
+                <Link href="#about">
+                    <button className="w-40 h-12 rounded-xl bg-[#FCFCFD] text-[#1E1F24] border border-[#1E1F24] text-sm hover:text-[#0569DC] hover:border-[#0569DC]">
+                        Learn More
+                    </button>
+                </Link>
+                <Link href="#download">
+                    <button className="w-40 h-12 rounded-xl bg-[#0569DC] border border-transparent text-[#FCFCFD] text-sm">
+                        Download Now
+                    </button>
+                </Link>
             </div>
         </div>
     );
