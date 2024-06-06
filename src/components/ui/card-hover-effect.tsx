@@ -88,6 +88,7 @@ export const CardTitle = ({
 }) => {
   return (
     <h4
+      style={{ fontFamily: "One700" }}
       className={cn(
         "text-[#1E1F24] font-bold tracking-wide mt-4 text-xl",
         className
@@ -107,6 +108,7 @@ export const CardDescription = ({
 }) => {
   return (
     <p
+      style={{ fontFamily: "One400" }}
       className={cn(
         "mt-8 text-[#1E1F24] tracking-wide leading-relaxed text-base text-justify",
         className

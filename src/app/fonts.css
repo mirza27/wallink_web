@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Sharp";
+  src: url("/fonts/SamsungSharpSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "One400";
+  src: url("/fonts/SamsungOne-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "One700";
+  src: url("/fonts/SamsungOne-700.ttf") format("truetype");
+}

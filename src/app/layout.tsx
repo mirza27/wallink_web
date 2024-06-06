@@ -1,27 +1,26 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
+import "./fonts.css";
 const samsung = localFont({
   src: [
     {
-      path: '../../public/fonts/SamsungOne-400.ttf',
-      weight: '400',
-      style: 'normal',
+      path: "../../public/fonts/SamsungOne-400.ttf",
+      weight: "400",
+      style: "normal",
     },
     {
-      path: '../../public/fonts/SamsungOne-700.ttf',
-      weight: '700',
-      style: 'medium',
+      path: "../../public/fonts/SamsungOne-700.ttf",
+      weight: "700",
+      style: "medium",
     },
     {
-      path: '../../public/fonts/SamsungSharpSans-Bold.ttf',
-      weight: '1000',
-      style: 'bold',
+      path: "../../public/fonts/SamsungSharpSans-Bold.ttf",
+      weight: "1000",
+      style: "bold",
     },
   ],
 });
-
 
 export const metadata: Metadata = {
   title: "Wallink",
@@ -35,9 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-        <head>
-          <link rel="icon" href="/logo-wallink.png" />
-        </head>
+      <head>
+        <link rel="icon" href="/logo-wallink.png" />
+      </head>
       <body className={samsung.className}>{children}</body>
     </html>
   );

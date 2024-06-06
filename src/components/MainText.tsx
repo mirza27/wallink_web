@@ -23,7 +23,10 @@ export function MainLandingText() {
     },
   ];
   return (
-    <div className="bg-[url('/main-texture.png')] bg-contain bg-bottom flex flex-col items-center justify-center h-[680px] w-screen">
+    <div
+      style={{ fontFamily: "One700" }}
+      className="bg-[url('/main-texture.png')] bg-contain bg-bottom flex flex-col items-center justify-center h-[680px] w-screen"
+    >
       <p className="text-neutral-800 text-base md:text-2xl xl:text-2xl">
         Save Time, Save Links,
       </p>

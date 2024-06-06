@@ -7,7 +7,10 @@ import { cn } from "@/lib/utils";
 export function Navbar() {
   return (
     <nav className="bg-transparent fixed flex z-50 w-full justify-center backdrop-filter backdrop-blur-lg bg-opacity-30">
-      <div className=" items-center justify-center py-4">
+      <div
+        className=" items-center justify-center py-4"
+        style={{ fontFamily: "One400" }}
+      >
         <a
           href="#about"
           className="px-2 text-[#1E1F24] hover:text-[#0569DC] text-2xl"
