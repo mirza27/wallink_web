@@ -18,13 +18,15 @@ export function About() {
               </h2>
             </div>
             <p style={{ fontFamily: "One400" }}>
-              Wallink is a digital link management and management application.
-              This application provides features such as link storage, link
-              categorization, search features, and is able to integrate with
-              other browsers. The Wallink application is designed to meet the
-              needs and preferences of Generation Z in managing their digital
-              links, with a focus on effectiveness, efficiency, and minimal user
-              interaction.
+              Wallink is a digital app for link management and organisation. It
+              offers features such as link storage, link categorisation and
+              search features, and can be integrated with various other
+              browsers. Wallink is specifically designed to meet Generation Z's
+              needs and preferences in managing their digital links, with an
+              emphasis on effectiveness, efficiency, and minimal user
+              interaction. With Wallink, users can easily organise, search and
+              access their favourite links anytime and anywhere, making it an
+              indispensable tool in this fast-paced digital life.
             </p>
           </div>
           <div className="flex justify-center">
