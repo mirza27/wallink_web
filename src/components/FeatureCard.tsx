@@ -19,24 +19,24 @@ export function FeatureCard() {
 }
 export const projects = [
   {
-    image: "/favorite-illustration.png",
-    title: "Structured and Easy-to-Understand Interface",
+    image: "/launcher-illustration.png",
+    title: "Access links faster",
     description:
-      "A user-friendly design with intuitive layouts and clear language, making navigation and use straightforward, even for those with minimal technical expertise.",
+      "With just one click, you can easily and conveniently share a bunch of important links with your friends or colleagues. No hassle, all links can be delivered quickly and efficiently, ensuring the information you share arrives on time and without a hitch.",
+    link: "#features",
+  },
+  {
+    image: "/favorite-illustration.png",
+    title: "Favourite your link",
+    description:
+      "Bookmark your important and favourite links as bookmarks for faster and easier access anytime. This way, you can easily find and open your frequently visited websites without the need to re-search, saving you time and effort every time you need them.",
     link: "#features",
   },
   {
     image: "/share-illustration.png",
-    title: "Categorized Link Listing",
+    title: "Share Your Links Easily",
     description:
-      "Users can organize links into broad categories like Work, Personal, or Research, and further refine these into subcategories such as Projects, Emails, or Data Analysis. This hierarchical structure facilitates quick and easy access to specific links",
-    link: "#features",
-  },
-  {
-    image: "/favorite-illustration.png",
-    title: "Search and Quick Access to Selected Links",
-    description:
-      "Robust search functionality allows users to find specific links quickly using keywords or tags. The quick access feature lets users pin or mark selected links for easy retrieval from a dedicated section or shortcut, enhancing productivity and organization.",
+      "Share a collection of links with your friends or colleagues easily and conveniently with just one click. With this feature, you don't have to bother sending links one by one, so all the information you want to share can be received quickly and efficiently.",
     link: "#features",
   },
 ];
